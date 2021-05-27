@@ -1,5 +1,42 @@
-#Ignore this xd
-Groups:
-  member:
-    permissions:
-      - block.break
+# Meesages!
+# To change a message you just change it
+# Uses Minecraft color codes!
+# To reference a player use %player%
+# Only reference a player if there is a reference already exsiting!
+# If you reference a player without a reference already exsiting you will get an error!
+messages:
+  LOST-PLAYER: '&c%player% has lost.'
+  WINNER: '&c%player% has won.'
+  NO-ARG: '&cUsage: /duels reload'
+  CONFIG-RELOAD: '&aDuels config has been reloaded successfully'
+  JOIN-MESSAGE-FIRST-PLAYER: '&7%player%&e has joined (&b1&e/&b2&e)!'
+  JOIN-MESSAGE-2ND-PLAYER: '&7%player%&e has joined (&b2&e/&b2&e)!'
+# Locations!
+# x,y,z = Players locations! please use only one number after the dot.
+# Example: 1.5
+# What not to do: 1.2321894892349823
+# Have fun!
+locations:
+  spawn_1:
+    x: 578
+    y: 66
+    z: 1221
+  spawn_2:
+    x: 504
+    y: 70
+    z: 1221
+  lobby:
+    x: 507
+    y: 184
+    z: 1488
+# MySQL, if you don't have one the plugin won't work!
+# You can use a localhost database like MySQL
+# Tutorial: https://www.youtube.com/watch?v=vLpBBmoWRvo
+# If you're creating a database like in the tutorial leave everything
+# as it is and only change "database" to your database name.
+SQL:
+  host: 'localhost'
+  port: '3306'
+  database: 'duels'
+  username: 'root'
+  password: ''
