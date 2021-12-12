@@ -16,6 +16,6 @@ The Idea for this minigame is from Hypixel.
 For more information contact support at https://support.hypixel.net
 
 ## Features
-* For config support
+* Full config support
 * MySQL for score managing
 
