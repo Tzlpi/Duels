@@ -10,10 +10,10 @@ Duels is the first minigame I ever made with spigot.
 It was made quite a while ago so the code isn't that great.
 
 The game is meant for 2 players.
-The Idea for this minigame is from Hypixel.
 
+The plugin was made by me however the idea is from Hypixel.
 
-For more information contact support at https://support.hypixel.net
+For more information / support contact me: <code>Tzipi#5810</code>
 
 ## Features
 * Full config support
