@@ -21,7 +21,7 @@ public class Main extends JavaPlugin implements Listener {
     public SQLGetter sqlGetter;
     private GameManager gameManager;
     private HubScoreboard hubScoreboard;
-
+    
     @Override
     public void onEnable() {
         super.onEnable();

@@ -34,6 +34,7 @@ public class MySQL {
         return  password;
     }
     private Connection connection;
+
     public boolean isConnected() {
         return(connection == null ? false : true);
     }

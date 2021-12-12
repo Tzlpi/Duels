@@ -25,6 +25,12 @@ public class QuitEvent implements Listener {
         Player player = e.getPlayer();
         if(gameManager.inGame.contains(player)) {
             gameManager.inGame.remove(player);
+
+            player.getInventory().clear();
+            player.getInventory().setArmorContents(null);
+            gameManager.getTpToLobby().tpToLobby(player);
+
+
         }
         for(Player winner : Bukkit.getOnlinePlayers()) {
             if(gameManager.inGame.contains(winner)) {

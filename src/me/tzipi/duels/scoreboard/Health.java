@@ -29,7 +29,7 @@ public class Health implements Listener {
         for(Player inGame : gameManager.inGame)
         {
             obj.setDisplaySlot(DisplaySlot.BELOW_NAME);
-            obj.setDisplayName(ChatColor.WHITE + "" + (int)inGame.getHealth() + ChatColor.RED + "❤");
+            obj.setDisplayName(ChatColor.WHITE + "" + (int) inGame.getHealth() + ChatColor.RED + "❤");
             System.out.println("Added player to team " + inGame.getName());
             inGame.setScoreboard(board);
         }

@@ -2,7 +2,7 @@ main: me.tzipi.duels.Main
 name: duels
 version: 1.0
 commands:
-  giveperm:
   join:
   addpoint:
   duels:
+  openInv:

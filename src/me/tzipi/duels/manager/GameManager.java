@@ -69,6 +69,9 @@ public class GameManager {
                 this.getRemoveScoreboard().removeBoard();
                 this.getHealth().setHealthNameTag();
 
+
+                break;
+
             case LOBBY:
                 this.getTpToLobby().tpToLobby1();
                 for(Player online : Bukkit.getOnlinePlayers()) {
@@ -93,5 +96,6 @@ public class GameManager {
     }
     public RemoveScoreboard getRemoveScoreboard() {return removeScoreboard;}
     public Health getHealth() {return health;}
+
 }
 

@@ -9,6 +9,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 
+import java.util.Arrays;
+
 public class BlockBreakListener implements Listener {
     private GameState gameState;
     private Main plugin;
@@ -21,6 +23,7 @@ public class BlockBreakListener implements Listener {
         if(!(player.isOp())) {
             e.setCancelled(true);
         }else {
+
             e.setCancelled(false);
             return;
         }
