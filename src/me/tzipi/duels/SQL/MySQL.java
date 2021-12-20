@@ -1,10 +1,8 @@
 package me.tzipi.duels.SQL;
 
-import com.avaje.ebeaninternal.server.cluster.Packet;
 import me.tzipi.duels.Main;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
@@ -14,24 +12,19 @@ public class MySQL {
         this.plugin = plugin;
     }
     public String port() {
-        String port = plugin.getConfig().getString("SQL.port");
-        return  port;
+        return plugin.getConfig().getString("SQL.port");
     }
     public String host() {
-        String host = plugin.getConfig().getString("SQL.host");
-        return host;
+        return plugin.getConfig().getString("SQL.host");
     }
     public String database() {
-        String database = plugin.getConfig().getString("SQL.database");
-        return database;
+        return plugin.getConfig().getString("SQL.database");
     }
     public String username() {
-        String username = plugin.getConfig().getString("SQL.username");
-        return username;
+        return plugin.getConfig().getString("SQL.username");
     }
     public String password() {
-        String password = plugin.getConfig().getString("SQL.password");
-        return  password;
+        return plugin.getConfig().getString("SQL.password");
     }
     private Connection connection;
 
